@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>campaign_name</name>
+        <type>string</type>
+        <label>Campaign Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>dive_name</name>
+        <type>string</type>
+        <label>Dive Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PSAL_b</name>
+        <type>boolean</type>
+        <label>Salinity</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>TEMP_b</name>
+        <type>boolean</type>
+        <label>Temperature</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>Time</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>time_coverage_start</wmsStartDateName>
+        <wmsEndDateName>time_coverage_end</wmsEndDateName>
+    </filter>
+</filters>
