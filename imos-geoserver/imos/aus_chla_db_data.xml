@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>SAMPLE_TIME_UTC</name>
+        <type>datetime</type>
+        <label>SAMPLE TIME UTC</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SAMPLING_METHOD_simplified</name>
+        <type>string</type>
+        <label>Sampling Method</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PROJECT_DESCRIPTION</name>
+        <type>string</type>
+        <label>Project Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PROJECT_LOCATION</name>
+        <type>string</type>
+        <label>Project Location</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
