@@ -22,13 +22,6 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>sample_no</name>
-    <type>string</type>
-    <label>Sample No</label>
-    <visualised>true</visualised>
-    <excludedFromDownload>false</excludedFromDownload>
-  </filter>
-  <filter>
     <name>shape</name>
     <type>geometrypropertytype</type>
     <label>Shape</label>
