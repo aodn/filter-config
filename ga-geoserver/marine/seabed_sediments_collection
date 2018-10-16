@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>survey_name</name>
+    <type>string</type>
+    <label>Survey</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>shape</name>
+    <type>geometrypropertytype</type>
+    <label>Shape</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>
