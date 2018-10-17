@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>position</name>
+    <type>geometrypropertytype</type>
+    <label>Bounding Box</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>
