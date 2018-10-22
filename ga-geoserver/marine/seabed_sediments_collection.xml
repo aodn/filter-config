@@ -17,7 +17,7 @@
   <filter>
     <name>sample_type</name>
     <type>string</type>
-    <label>Sample Type</label>
+    <label>Sample Type (test)</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
