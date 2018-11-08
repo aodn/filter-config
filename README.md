@@ -1,7 +1,5 @@
 # AODN Portal filter configuration
 
-PROOF OF CONCEPT only.   Not in use
-
 This repository contains layer filter configuration for https://portal-rc.aodn.org.au (test branch) and
 https://portal.aodn.org.au (prod branch).
 
