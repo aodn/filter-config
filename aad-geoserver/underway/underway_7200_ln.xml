@@ -11,14 +11,14 @@
     </filter>
     <filter>
         <name>set_code</name>
-        <type>string</type>
+        <type>double</type>
         <label>Set Code</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>group_nr</name>
-        <type>string</type>
+        <type>long</type>
         <label>Group</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
