@@ -1,30 +1,23 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>date_time_utc</name>
+        <name>TIME</name>
         <type>datetime</type>
         <label>Date (UTC)</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
-        <wmsStartDateName>min_date_time_utc</wmsStartDateName>
-        <wmsEndDateName>max_date_time_utc</wmsEndDateName>
+        <wmsStartDateName>time_coverage_start</wmsStartDateName>
+        <wmsEndDateName>time_coverage_end</wmsEndDateName>
     </filter>
     <filter>
         <name>set_code</name>
-        <type>double</type>
+        <type>string</type>
         <label>Set Code</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>group_nr</name>
-        <type>long</type>
-        <label>Group</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>track</name>
+        <name>geom</name>
         <type>geometrypropertytype</type>
         <label>Geom</label>
         <visualised>true</visualised>
