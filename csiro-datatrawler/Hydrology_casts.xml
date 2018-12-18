@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>SOURCE</name>
+    <type>string</type>
+    <label>Source</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>SURVEY_NAME</name>
+    <type>string</type>
+    <label>Survey Name</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>
