@@ -1,6 +1,22 @@
 <?xml version="1.0"?>
 <filters>
   <filter>
+    <name>GEOLOC</name>
+    <type>geometrypropertytype</type>
+    <label>Bounding Box</label>
+    <visualised>true</visualised>
+    <values/>
+  </filter>
+  <filter>
+    <name>TIME</name>
+    <type>datetime</type>
+    <label>Date (UTC)</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+    <wmsStartDateName>TIME_COVERAGE_START</wmsStartDateName>
+    <wmsEndDateName>TIME_COVERAGE_END</wmsEndDateName>
+  </filter>
+  <filter>
     <name>SOURCE</name>
     <type>string</type>
     <label>Source</label>
