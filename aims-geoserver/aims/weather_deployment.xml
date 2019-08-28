@@ -1,1 +1,89 @@
-
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>Date (UTC)</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>time_coverage_start</wmsStartDateName>
+        <wmsEndDateName>time_coverage_end</wmsEndDateName>
+    </filter>
+    <filter>
+        <name>depth</name>
+        <type>double</type>
+        <label>Depth</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>location_name</name>
+        <type>string</type>
+        <label>Location Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>parameter</name>
+        <type>string</type>
+        <label>Parameter</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>instrument_type</name>
+        <type>string</type>
+        <label>Instrument Type</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>serial_num</name>
+        <type>string</type>
+        <label>Serial Number</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>site_name</name>
+        <type>string</type>
+        <label>Site Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>    
+    <filter>
+        <name>gbrmpa_reef_id</name>
+        <type>string</type>
+        <label>GBRMPA Reef ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>series_id</name>
+        <type>int</type>
+        <label>Series ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>series_name</name>
+        <type>string</type>
+        <label>Series Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>project_name</name>
+        <type>string</type>
+        <label>Project Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
