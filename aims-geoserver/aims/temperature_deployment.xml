@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>Date (UTC)</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>time_coverage_start</wmsStartDateName>
+        <wmsEndDateName>time_coverage_end</wmsEndDateName>
+    </filter>
+    <filter>
         <name>depth</name>
         <type>double</type>
         <label>Depth</label>
