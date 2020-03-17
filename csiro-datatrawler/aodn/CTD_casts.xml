@@ -18,14 +18,14 @@
   </filter>
   <filter>
     <name>SOURCE</name>
-    <type>string</type>
+    <type>singlestring</type>
     <label>Source</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
     <name>SURVEY_NAME</name>
-    <type>string</type>
+    <type>singlestring</type>
     <label>Survey Name</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
