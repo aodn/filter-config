@@ -1,12 +1,12 @@
 <filter>
-    <name>source</name>
+    <name>SOURCE</name>
     <type>singlestring</type>
     <label>Ship</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>survey_name</name>
+    <name>SURVEY_NAME</name>
     <type>singlestring</type>
     <label>Voyage</label>
     <visualised>true</visualised>
