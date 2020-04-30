@@ -1,4 +1,13 @@
-<filter>
+<?xml version="1.0"?>
+<filters>
+  <filter>
+    <name>GEOLOC</name>
+    <type>geometrypropertytype</type>
+    <label>Bounding Box</label>
+    <visualised>true</visualised>
+    <values/>
+  </filter>
+  <filter>
     <name>SOURCE</name>
     <type>singlestring</type>
     <label>Ship</label>
