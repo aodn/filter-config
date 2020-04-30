@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<filters>
+  <filter>
+        <name>GEOLOC</name>
+        <type>geometrypropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <values/>
+   </filter>
+  <filter>
+    <name>SOURCE</name>
+    <type>singlestring</type>
+    <label>Ship</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>SURVEY_NAME</name>
+    <type>singlestring</type>
+    <label>Voyage</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>TIME</name>
+    <type>datetime</type>
+    <label>Date (UTC)</label>
+    <visualised>true</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+    <wmsStartDateName>TIME_COVERAGE_START</wmsStartDateName>
+    <wmsEndDateName>TIME_COVERAGE_END</wmsEndDateName>
+  </filter>
+  <filter>
+    <name>LATITUDE</name>
+    <type>numeric</type>
+    <label>Latitude</label>
+    <visualised>false</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+  <filter>
+    <name>LONGITUDE</name>
+    <type>numeric</type>
+    <label>Longitude</label>
+    <visualised>false</visualised>
+    <excludedFromDownload>false</excludedFromDownload>
+  </filter>
+</filters>
