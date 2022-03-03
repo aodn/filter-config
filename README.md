@@ -1,22 +1,26 @@
 # AODN Portal filter configuration
 
-PROOF OF CONCEPT only.   Not in use
+This repository contains layer filter configuration for WMS servers defined in the AODN portal (https://github.com/aodn/aodn-portal) as the type 'GeoserverFilterConfig'. The portal expects theses WMS servers to be a standard Geoserver, but will retrieve the filter information from this repo (or S3 repo mirror for prod).
+```
 
-This repository contains layer filter configuration for https://portal-rc.aodn.org.au (test branch) and
-https://portal.aodn.org.au (prod branch).
+    [
+        uri: 'http://example.wms.server/geoserver/wms',
+        wmsVersion: '1.1.1',
+        type: 'GeoserverFilterConfig',
+        filtersDir: "example-geoserver", 
+        wpsUrl: 'http://example.wms.server/geoserver/wps'
+    ],
+   ```
 
-To test filter configuration in portal-rc, select the test branch (the default) and add a filter configuration
+To test filter configuration commit to the test branch (the default) and add a filter configuration
 file in the appropriate directory for your server (as advised by AODN staff).
 
 Filter configuration for GeoServer layers are organised by workspace so, for example, the filter configuration
- for imos:argo_profile_map served by the IMOS WMS server can be found in
+ for imos:argo_profile_map served by the IMOS WMS server could be found in
  imos-geoserver/imos/argo_profile_map.xml
 
-Note that display in portal-rc requires a valid metadata record referencing this layer to
- be configured in https://catalogue-rc.aodn.org.au and for the referenced services to be available.
-
-Once changes have been tested in portal-rc, they can be made available for the production portal by
-copying the filter configuration to the same location in the prod branch.
+Once changes have been tested, they can be made available for the production portal by
+creating a pull request into the prod branch.
 
 Example configuration file:
 
@@ -67,11 +71,11 @@ config entry has no effect here at the moment).
 
 Available configuration elements are as follows:
 
-Element | Description
---- | ---
-name | wms property name for which to display a filter
-type | type of filter (string, datetime, geometrypropertytype, ...
-label | label to be displayed for filter
-visualised | whether filter applies to the map layer (true - the default) or a linked download layer only (false)
-excludeFromDownload | not yet implemented
+| Element              | Description |
+|----------------------| --- |
+| name                 | wms property name for which to display a filter |
+| type                 | type of filter (string, datetime, geometrypropertytype, ... |
+| label                | label to be displayed for filter |
+| visualised           | whether filter applies to the map layer (true - the default) or a linked download layer only (false) |
+|  excludeFromDownload | not yet implemented |
 
