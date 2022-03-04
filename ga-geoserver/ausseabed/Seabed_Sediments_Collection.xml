@@ -8,14 +8,14 @@
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>survey_name</name>
+    <name>SURVEY_NAME</name>
     <type>string</type>
     <label>Survey</label>
     <visualised>true</visualised>
     <excludedFromDownload>false</excludedFromDownload>
   </filter>
   <filter>
-    <name>sample_type</name>
+    <name>SAMPLE_TYPE</name>
     <type>string</type>
     <label>Sample Type</label>
     <visualised>true</visualised>
