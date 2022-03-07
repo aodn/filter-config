@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <filters>
   <filter>
-    <name>acquire_date</name>
+    <name>ACQUIRE_DATE</name>
     <type>datetime</type>
     <label>Acquire Date</label>
     <visualised>true</visualised>
