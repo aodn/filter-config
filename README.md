@@ -1,5 +1,9 @@
 # AODN Portal filter configuration
 
+## Licensing
+This project is licensed under the terms of the GNU GPLv3 license.
+
+## Configuration
 This repository contains layer filter configuration for WMS servers defined in the AODN portal (https://github.com/aodn/aodn-portal) as the type 'GeoserverFilterConfig'. The portal expects theses WMS servers to be a standard Geoserver, but will retrieve the filter information from this repo (or S3 repo mirror for prod).
 ```
 
