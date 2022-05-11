@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>Date (UTC)</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>STATION_NA</name>
+        <type>string</type>
+        <label>Station Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>POLYMER_CA</name>
+        <type>string</type>
+        <label>Polymer Category</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>SHAPE</name>
+        <type>string</type>
+        <label>Shape</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>the_geom</name>
+        <type>geometrypropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
