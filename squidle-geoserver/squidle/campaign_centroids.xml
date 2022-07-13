@@ -7,11 +7,4 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
-    <filter>
-        <name>name</name>
-        <type>string</type>
-        <label>Campaign Name</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
 </filters>
