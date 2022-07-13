@@ -6,5 +6,7 @@
         <label>Date (UTC)</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>date</wmsStartDateName>
+        <wmsEndDateName>date</wmsEndDateName>        
     </filter>
 </filters>
