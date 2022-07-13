@@ -4,7 +4,7 @@
 This project is licensed under the terms of the GNU GPLv3 license.
 
 ## Configuration
-This repository contains layer filter configuration for WMS servers defined in the AODN portal (https://github.com/aodn/aodn-portal) as the type 'GeoserverFilterConfig'. The portal expects theses WMS servers to be a standard Geoserver, but will retrieve the filter information from this repo (or S3 repo mirror for prod).
+This repository contains layer filter configuration for WMS servers defined in the AODN portal (https://github.com/aodn/aodn-portal) as the type 'GeoserverFilterConfig'. The portal expects theses WMS servers to be a standard Geoserver, but will retrieve the filter information from this repo from the test branch e.g. `filter_config_url: https://raw.githubusercontent.com/aodn/filter-config/test`.
 ```
 
     [
@@ -16,7 +16,7 @@ This repository contains layer filter configuration for WMS servers defined in t
     ],
    ```
 
-To test filter configuration commit to the test branch (the default) and add a filter configuration
+To test filter configuration, commit to the test branch (the default) and add a filter configuration
 file in the appropriate directory for your server (as advised by AODN staff).
 
 Filter configuration for GeoServer layers are organised by workspace so, for example, the filter configuration
@@ -24,7 +24,7 @@ Filter configuration for GeoServer layers are organised by workspace so, for exa
  imos-geoserver/imos/argo_profile_map.xml
 
 Once changes have been tested, they can be made available for the production portal by
-creating a pull request into the prod branch.
+creating a pull request into the prod branch. Updates/changes will be automatically published to the GitHub Pages static site from this branch.
 
 Example configuration file:
 
