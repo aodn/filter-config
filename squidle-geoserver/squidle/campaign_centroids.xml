@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>TIME</name>
+        <type>datetime</type>
+        <label>Date (UTC)</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+        <wmsStartDateName>date</wmsStartDateName>
+        <wmsEndDateName>date</wmsEndDateName>        
+    </filter>
+</filters>
