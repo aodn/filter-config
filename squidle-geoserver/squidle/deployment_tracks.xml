@@ -7,10 +7,17 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
         <wmsStartDateName>date</wmsStartDateName>
-        <wmsEndDateName>date</wmsEndDateName>        
+        <wmsEndDateName>date</wmsEndDateName>
     </filter>
     <filter>
-        <name>platform_names</name>
+        <name>campaign_name</name>
+        <type>string</type>
+        <label>Campaign Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>platform_name</name>
         <type>string</type>
         <label>Platform Name</label>
         <visualised>true</visualised>
