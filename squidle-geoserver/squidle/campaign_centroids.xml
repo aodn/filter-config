@@ -18,21 +18,21 @@
     </filter>
     <filter>
         <name>media_count</name>
-        <type>int</type>
+        <type>long</type>
         <label>Media Count</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>total_annotation_count</name>
-        <type>int</type>
+        <type>long</type>
         <label>Total Annotation Count</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>public_annotation_count</name>
-        <type>int</type>
+        <type>long</type>
         <label>Public Annotation Count</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
