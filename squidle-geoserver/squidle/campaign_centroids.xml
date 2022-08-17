@@ -12,7 +12,7 @@
     <filter>
         <name>platform_names</name>
         <type>string</type>
-        <label>Platform Name</label>
+        <label>Platform Names</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
