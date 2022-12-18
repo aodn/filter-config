@@ -45,7 +45,7 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>geom</name>
+        <name>line</name>
         <type>geometrypropertytype</type>
         <label>Geom</label>
         <visualised>true</visualised>
