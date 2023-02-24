@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>TIME</name>
+        <name>DATE</name>
         <type>datetime</type>
         <label>Date (UTC)</label>
         <visualised>true</visualised>
@@ -16,7 +16,7 @@
     </filter>
 <filter>
         <name>TRIP_ID</name>
-        <type>string</type>
+        <type>int</type>
         <label>Trip Id</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
@@ -29,7 +29,7 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
 <filter>
-        <name>the_geom</name>
+        <name>GEOM</name>
         <type>geometrypropertytype</type>
         <label>Bounding Box</label>
         <visualised>true</visualised>
