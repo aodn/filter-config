@@ -16,7 +16,7 @@
     </filter>
 <filter>
         <name>TRIP_ID</name>
-        <type>int</type>
+        <type>string</type>
         <label>Trip Id</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
