@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>DATE</name>
+        <type>datetime</type>
+        <label>Date (UTC)</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>REEF_NAME</name>
+        <type>string</type>
+        <label>Reef Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>TRIP_ID</name>
+        <type>string</type>
+        <label>Trip Id</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>OPEN_CLOSED_TO_FISHING</name>
+        <type>string</type>
+        <label>Open or Closed to Fishing</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+<filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>Bounding Box</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
