@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <filters>
-  <filter>
     <filter>
         <name>TIME</name>
         <type>datetime</type>
@@ -10,5 +9,4 @@
         <wmsStartDateName>date</wmsStartDateName>
         <wmsEndDateName>date</wmsEndDateName>        
     </filter>
-  </filter>
 </filters>
