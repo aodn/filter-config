@@ -4,7 +4,7 @@
         <name>TIME</name>
         <type>datetime</type>
         <label>Date (UTC)</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
+        <visualised>false</visualised>
+        <excludedFromDownload>true</excludedFromDownload>
     </filter>
 </filters>
