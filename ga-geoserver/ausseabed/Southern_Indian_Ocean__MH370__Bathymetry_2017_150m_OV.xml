@@ -7,4 +7,11 @@
         <visualised>false</visualised>
         <excludedFromDownload>true</excludedFromDownload>
     </filter>
+  <filter>
+    <name>position</name>
+    <type>geometrypropertytype</type>
+    <label>Bounding Box</label>
+    <visualised>false</visualised>
+    <excludedFromDownload>true</excludedFromDownload>
+  </filter>    
 </filters>
