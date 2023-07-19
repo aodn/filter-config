@@ -80,7 +80,7 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>the_geom</name>
+        <name>geom</name>
         <type>geometrypropertytype</type>
         <label>Bounding Box</label>
         <visualised>true</visualised>
